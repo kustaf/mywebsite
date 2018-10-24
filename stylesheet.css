@@ -1,0 +1,90 @@
+* {margin: 0; padding: 0;font-family: 'Raleway', sans-serif;}
+
+.container {}
+
+
+nav {padding-top: 5px;}
+nav ul {text-align: center;}
+nav li {display: inline-block; padding: 10px; text-transform: uppercase;}
+nav a {text-decoration: none; color: black; font-weight: 900;}
+nav a:hover {color: #990033;}
+
+#main {padding: 100px;}
+#main img {width: 100%; height: auto;}
+
+
+/*----------------------------------------------------------------------*/
+
+#main-page {padding-top: 10px; text-align: center; margin-bottom: 50px;}
+#main-page header {display: block; padding: 10px; line-height: 2em; text-align: center;}
+#main-page button{padding: 8px;}
+#main-page h3 {margin-top: 10px; font-size: 1em; color: black;}
+#main-page p {font-size: 1.2em; font-weight: 100; color: black;}
+
+/* .buttons {border-radius: 10px; margin-right: 20px; margin-left: 20px;}
+
+button:focus {outline: none;}
+button:hover {background: black;}
+
+#Resume-Button {color: red;}
+#Github-button {} */
+
+.btn {color:black; background: transparent; border: 2px solid  #1a0000; border-radius: 10px;
+    text-transform: uppercase; text-decoration: none; cursor: pointer; transition-duration: 0.4s; margin: 10px 2px; font-size: 12px; display: inline-block; text-align: center; 
+}
+
+#btn-0:hover {background-color:  blue; color: white;}
+#btn-1:hover {background-color:  blue; color: white;}
+#btn-2:hover {background-color: #990033; color: white;}
+
+.btn:focus {outline: none;}
+/*----------------------------------------------------------------------*/
+
+#social {}
+#social ul {text-align: center;}
+#social li {display: inline-block; padding: 10px; font-size: 20px;}
+#social a {text-decoration: none; color: black; font-weight: 500;}
+#social a:hover {color: #990033;}
+
+hr {display: block; margin-top: 1em; margin-bottom: 1em; margin-left: auto; margin-right: auto; border-style: inset; border-width: 1px;}
+
+/*----------------------------------------------------------------------*/
+
+#Experience-Page {}
+#Experience-Page header {}
+#Experience-Page h3 {text-align: center; padding-top: 25px; font-size: 18px;}
+#Experience-Page a {text-decoration: none; color: white; text-align: center;}
+
+.Experience-Box {width: 80%; margin: auto;}
+#Experience-Box-1 {border: solid 3px black; height: 150px; margin-top: 10px; /* margin-left: 25px; margin-right: 25px;*/}
+
+#Experience-Box-2 {border: solid 3px black; height: 150px; margin-top: 30px;}
+
+#Experience-Box-3 {border: solid 3px black; height: 150px; margin-top: 30px; margin-bottom: 10px;}
+
+/*----------------------------------------------------------------------*/
+
+#Expierence-Box-Header h5{margin-left: 5px; padding: 5px;}
+#Expierence-Box-Header-2 h5{margin-left: 5px; padding: 5px;}
+#Expierence-Box-Header-3 h5{margin-left: 5px; padding: 5px;}
+
+
+#description-class h5 {float: right;  }
+
+#Experience-Page p{font-size: 11px;; width: 200px; float: right; margin-top: -60px; margin-right: 10px; font-weight: 800; }
+
+/*----------------------------------------------------------------------*/
+
+#Work-log {margin: auto; width: 50%; padding: 10px;}
+#Work-log h3 {text-align: center; padding-top: 25px; font-size: 18px;}
+#Work-log a {text-decoration: none; color: black; text-align: center;}
+
+.Work-Box {width: 20%; margin: auto; display: inline-block;}
+#Work-Box-1 {margin-top: 20px; padding:40px; border: solid 3px black; height: 300px;}
+
+#Work-Box-2 {margin-top: 20px; padding:40px; border: solid 3px black; height: 300px; }
+
+#Work-Box-3 {margin-top: 20px; padding:40px; border: solid 3px black; height: 300px;}
+
+
+footer p {text-align: center; margin-bottom: 10px;}
